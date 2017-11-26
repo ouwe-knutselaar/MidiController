@@ -1,0 +1,88 @@
+{
+ "deviceName":"Behringer DSP 2024",
+ "effects":
+   [
+    {"name":"Cathedral",
+     "type":"reverb",
+     "hexAccess":"6600",
+     "controlers":
+     	[
+     	 {"name":"pre delay 0-200ms",   "hex":"67xx"},
+     	 {"name":"decay 2-8 sec",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp 0-100%",	"hex":"69xx"},
+     	 {"name":"Bass Mul -10 - 10",	"hex":"6Axx"},
+     	 {"name":"Svh Damp 0-100%",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod 1-20",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Dxx"},
+     	 {"name":"EQ Low",      "hex":"6Exx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Guitar AMP",
+     "type":"distortion",
+     "hexAccess":"6632",
+     "controlers":
+     	[
+     	 {"name":"In Gain 1-100",   "hex":"67xx"},
+     	 {"name":"Drive 1-100",       "hex":"68xx"},
+     	 {"name":"Presence 1-100",	"hex":"69xx"},
+     	 {"name":"Gain 1-100",	"hex":"6Axx"},
+     	 {"name":"Cabinet Type 1,2,3,4,5,6,7,8",     "hex":"6Bxx"},
+     	 {"name":"EQ High -16 - 16 db",     "hex":"6Dxx"},
+     	 {"name":"EQ Mid -16 - 16 db",        "hex":"6Cxx"},
+     	 {"name":"EQ Low -16 - 16 db",      "hex":"6Exx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Tri Fuzz",
+     "type":"distortion",
+     "hexAccess":"6633",
+     "controlers":
+     	[
+     	 {"name":"In Gain 1-100",   "hex":"67xx"},
+     	 {"name":"Low Fuzz 1-100",       "hex":"68xx"},
+     	 {"name":"Mid Fuzz 1-100",	"hex":"69xx"},
+     	 {"name":"High Fuzz 1-100",	"hex":"6Axx"},
+     	 {"name":"Drive 1-100",     "hex":"6Bxx"},
+     	 {"name":"High Damp 1-100",        "hex":"6Cxx"},
+     	 {"name":"EQ High -16 - 16 db",     "hex":"6Dxx"},
+     	 {"name":"EQ Low -16 - 16 db",      "hex":"6Exx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Tube Distortion",
+     "type":"distortion",
+     "hexAccess":"6631",
+     "controlers":
+     	[
+     	 {"name":"Drive in 1-100",   "hex":"67xx"},
+     	 {"name":"Pre HP 0.05 - 1Khz",       "hex":"68xx"},
+     	 {"name":"Pre HL 1 - 15Khz",	"hex":"69xx"},
+     	 {"name":"BandLimit 15 - 1Khz",	"hex":"6Axx"},
+     	 {"name":"Tube Selction 1,2,3",     "hex":"6Bxx"},
+     	 {"name":"EQ High -16 - 16 db",     "hex":"6Dxx"},
+     	 {"name":"EQ Mid -16 - 16 db",        "hex":"6Cxx"},
+     	 {"name":"EQ Low -16 - 16 db",      "hex":"6Exx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Compressor",
+     "type":"compressor",
+     "hexAccess":"661E",
+     "controlers":
+     	[
+     	 {"name":"ratio",       "hex":"67xx"},
+     	 {"name":"treshold",    "hex":"68xx"},
+     	 {"name":"M Gain",      "hex":"69xx"},
+     	 {"name":"Soft Knee",   "hex":"6Axx"},
+     	 {"name":"Attack",      "hex":"6Bxx"},
+     	 {"name":"Release",     "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Dxx"},
+     	 {"name":"EQ Low",      "hex":"6Exx"},
+     	 {"name":"On/Off",      "hex":"6Fxx"}
+     	]
+     }
+   ]
+   
+
+}
