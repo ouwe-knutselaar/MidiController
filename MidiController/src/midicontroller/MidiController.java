@@ -17,11 +17,11 @@ import java.io.IOException;
 public class MidiController extends Application implements MidiControllerEventHandler
 {
 	
-	static private BorderPane mainPane=new BorderPane();
-	static private FlowPane controllerAppletBox=new FlowPane();
-	static private MidiMenu menuBar = new MidiMenu();
-	private ControllerAppletContainer controllerAppletContainer=new ControllerAppletContainer();  // Applet met de Midi controller
-	MidiControllerDevice midiControllerDevice=new MidiControllerDevice();   // De midi connector
+	static private BorderPane mainPane=new BorderPane();											// The main client area
+	static private FlowPane controllerAppletBox=new FlowPane();										// The sub client area with the controllerAppletContainer objects
+	static private MidiMenu menuBar = new MidiMenu();												// The menu bar				
+	private ControllerAppletContainer controllerAppletContainer=new ControllerAppletContainer();  	// Applet with the different Midi effects
+	MidiControllerDevice midiControllerDevice=new MidiControllerDevice();   						// De midi connectors
 	
 	
 	@SuppressWarnings("restriction")
@@ -30,15 +30,15 @@ public class MidiController extends Application implements MidiControllerEventHa
 		
 		primaryStage.setTitle("MidiController 1.0");
 
-		Group root = new Group();
+		//Group root = new Group();
 		
-		Scene scene=new Scene(mainPane);
+		Scene scene=new Scene(mainPane);			// Make a new scene with the main client area
 		mainPane.setTop(menuBar);                  // Plaats de menubar
 		mainPane.setCenter(controllerAppletBox);   // Plaats de controller
 		
 		primaryStage.setScene(scene);
 		
-		primaryStage.show();
+		primaryStage.show();			// Show the GUI
 		
 	}
 	
