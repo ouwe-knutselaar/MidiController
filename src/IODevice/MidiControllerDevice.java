@@ -38,7 +38,7 @@ public class MidiControllerDevice implements MidiControllerEventHandler
 			        MidiDevice deviceInfo=MidiSystem.getMidiDevice(infor);
 			        System.out.println("Name:"+infor.getName()+" Descriptor:"+infor.getDescription()+" Vendor:"+infor.getVendor());				
 					System.out.println("Max receivers:"+deviceInfo.getMaxReceivers()+" max transmitters:"+deviceInfo.getMaxTransmitters());
-					deviceList.add(infor.getName());	// Voeg het device toe
+					if(deviceInfo.getMaxReceivers()!=0)deviceList.add(infor.getName());		// Voeg het device toe als het een output is
 
 			    }
 			    catch(MidiUnavailableException e)
@@ -46,7 +46,15 @@ public class MidiControllerDevice implements MidiControllerEventHandler
 			      System.out.println("Midi device not available "+e.getMessage() );
 			    }
 			}
-		OpenDevice(Globals.controller);							// Open een midi device
+		boolean result=OpenDevice(Globals.controller);							// Open een midi device
+		if(result)
+		{
+			System.out.println("Device succesfully opened");
+		}
+		else
+		{
+			System.out.println("Error opening device");
+		}	
 	}
 
 	
@@ -57,6 +65,7 @@ public class MidiControllerDevice implements MidiControllerEventHandler
 	 */
 	public boolean OpenDevice(int deviceNumber)
 	{		
+		System.out.println("OpenDevice "+deviceNumber);
 		MidiDevice defaultDevice=null;										// Maak een referentie naar een MidiDevice
 		try {
 			defaultDevice = MidiSystem.getMidiDevice(infos[deviceNumber]);	// Select het default device
@@ -68,7 +77,7 @@ public class MidiControllerDevice implements MidiControllerEventHandler
 			return false;
 		}
 		
-		System.out.println("Transmitters is "+receiverPort);
+		System.out.println("Transmitters is "+receiverPort+" with name "+defaultDevice.getDeviceInfo().getName());
 		return true;
 	}
 	
@@ -91,7 +100,8 @@ public class MidiControllerDevice implements MidiControllerEventHandler
 	 */
 	private boolean SendMidiSevent(String hexString, int sliderParameter, int channel)
 	{
-		channel--;																// Even een correctie omdat het null het eerste kanaal is
+		System.out.println("channel org is "+channel);
+		//channel--;																// Even een correctie omdat het null het eerste kanaal is
 		ShortMessage message=new ShortMessage();								// Maak een short message om te verzenden
 		byte[] midiBytaArray=HexStringToByteArray(hexString,sliderParameter);	// Maak de array om te verturen uit de hex string
 		try {
@@ -146,7 +156,7 @@ public class MidiControllerDevice implements MidiControllerEventHandler
 		if(e.getMsg1().equals("change_mididevice"))
 		{
 			//System.out.println("MidiControllerDevice message :"+e.getMsg1()+" "+e.getMsg2()+" "+e.getInt1()+" "+e.getInt2());
-			ChangeToNewMidiDevice(e.getMsg1());
+			ChangeToNewMidiDevice(e.getMsg2());
 		}
 		
 		if(e.getMsg1().equals("change_controller"))
@@ -170,10 +180,13 @@ public class MidiControllerDevice implements MidiControllerEventHandler
 		int MidiDeviceNumber=0;
 		
 		receiverPort.close();
-		
+		System.out.println("Open device "+msg1);
 		for(int tel=0;tel<infos.length;tel++)
 		{
-			if(infos[tel].getName().equals(msg1))MidiDeviceNumber=tel;
+			if(infos[tel].getName().equals(msg1))
+				{
+				 MidiDeviceNumber=tel;
+				}
 		}
 		
 		try {

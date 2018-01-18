@@ -49,7 +49,7 @@ public class MidiMenu extends MenuBar
 	 */
 	public void AddEffects(ControllerAppletContainer controllerAppletContainer)
 	{
-		for(ControllerApplet cApp : controllerAppletContainer.getList())
+		for(final ControllerApplet cApp : controllerAppletContainer.getList())
 		{
 			MenuItem tempItem=new MenuItem(cApp.getEffectName());
 			
@@ -71,8 +71,9 @@ public class MidiMenu extends MenuBar
 	 */
 	public void addMidiDevices(MidiControllerDevice midiControllerDevice) {
 		
-		for(String device : midiControllerDevice.getDeviceArray())
+		for(final String device : midiControllerDevice.getDeviceArray())
 		{
+			
 			MenuItem tempItem=new MenuItem(device);
 			tempItem.setOnAction(new EventHandler<ActionEvent>(){
 			    @Override public void handle(ActionEvent e) {

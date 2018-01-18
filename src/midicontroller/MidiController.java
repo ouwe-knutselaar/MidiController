@@ -50,7 +50,7 @@ public class MidiController extends Application implements MidiControllerEventHa
 		MidiControllerEventDispatcher.addListener(midiControllerDevice);	// Voeg de midi device toe
 		
 		// Laadt de JSON met de controllers
-		controllerAppletContainer.loadApplets("/home/gebruiker/development/midicontroller/midiController.zip_expanded/MidiController/resources/dsp2024.json");
+		controllerAppletContainer.loadApplets("C:\\Users\\erwin\\workspace\\MidiController\\resources\\dsp2024.json");
 		
 		// Zorg ervoor dat de eerste applet wordt getoond
 		ControllerApplet cApp=controllerAppletContainer.getList().get(0);

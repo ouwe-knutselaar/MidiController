@@ -13,8 +13,8 @@
      	 {"name":"Bass Mul -10 - 10",	"hex":"6Axx"},
      	 {"name":"Svh Damp 0-100%",     "hex":"6Bxx"},
      	 {"name":"Rev Mod 1-20",        "hex":"6Cxx"},
-     	 {"name":"EQ High",     "hex":"6Dxx"},
-     	 {"name":"EQ Low",      "hex":"6Exx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
      	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
      	]
      },
@@ -28,9 +28,9 @@
      	 {"name":"Presence 1-100",	"hex":"69xx"},
      	 {"name":"Gain 1-100",	"hex":"6Axx"},
      	 {"name":"Cabinet Type 1,2,3,4,5,6,7,8",     "hex":"6Bxx"},
-     	 {"name":"EQ High -16 - 16 db",     "hex":"6Dxx"},
+     	 {"name":"EQ High -16 - 16 db",     "hex":"6Exx"},
      	 {"name":"EQ Mid -16 - 16 db",        "hex":"6Cxx"},
-     	 {"name":"EQ Low -16 - 16 db",      "hex":"6Exx"},
+     	 {"name":"EQ Low -16 - 16 db",      "hex":"6Dxx"},
      	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
      	]
      },
@@ -45,8 +45,8 @@
      	 {"name":"High Fuzz 1-100",	"hex":"6Axx"},
      	 {"name":"Drive 1-100",     "hex":"6Bxx"},
      	 {"name":"High Damp 1-100",        "hex":"6Cxx"},
-     	 {"name":"EQ High -16 - 16 db",     "hex":"6Dxx"},
-     	 {"name":"EQ Low -16 - 16 db",      "hex":"6Exx"},
+     	 {"name":"EQ High -16 - 16 db",     "hex":"6Exx"},
+     	 {"name":"EQ Low -16 - 16 db",      "hex":"6Dxx"},
      	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
      	]
      },
@@ -60,12 +60,29 @@
      	 {"name":"Pre HL 1 - 15Khz",	"hex":"69xx"},
      	 {"name":"BandLimit 15 - 1Khz",	"hex":"6Axx"},
      	 {"name":"Tube Selction 1,2,3",     "hex":"6Bxx"},
-     	 {"name":"EQ High -16 - 16 db",     "hex":"6Dxx"},
+     	 {"name":"EQ High -16 - 16 db",     "hex":"6Exx"},
      	 {"name":"EQ Mid -16 - 16 db",        "hex":"6Cxx"},
-     	 {"name":"EQ Low -16 - 16 db",      "hex":"6Exx"},
+     	 {"name":"EQ Low -16 - 16 db",      "hex":"6Dxx"},
      	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
      	]
      },
+     {"name":"UltraBass",
+     "type":"psych acoustics",
+     "hexAccess":"6628",
+     "controlers":
+     	[
+     	 {"name":"SubBass Freq 1-100",       "hex":"67xx"},
+     	 {"name":"SubBass Level",    "hex":"68xx"},
+     	 {"name":"Split Freq",      "hex":"69xx"},
+     	 {"name":"Harmonic lvl",   "hex":"6Axx"},
+     	 {"name":"Harmonic dest",      "hex":"6Bxx"},
+     	 {"name":"Bass Level",     "hex":"6Cxx"},
+     	 {"name":"EQ Low",     "hex":"6Dxx"},
+     	 {"name":"EQ High",      "hex":"6Exx"},
+     	 {"name":"On/Off",      "hex":"6Fxx"}
+     	]
+     }
+     ,
      {"name":"Compressor",
      "type":"compressor",
      "hexAccess":"661E",

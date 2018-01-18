@@ -31,8 +31,8 @@ public class ControllerApplet extends VBox implements MidiControllerEventHandler
 	
 	private Text headText=new Text("Head");		// Koptext
 	private Text footText=new Text("foot");		// Voettext
-	private ChoiceBox<Integer> channelSelector=new ChoiceBox<>(FXCollections.observableArrayList(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16));
-	private int channel=16;						// Het default channel
+	private ChoiceBox<Integer> channelSelector=new ChoiceBox<>(FXCollections.observableArrayList(0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15));
+	private int channel=15;						// Het default channel
 	
 	private ArrayList <MidiSlider> midiSliderArray=new ArrayList<>();
 	private final int appletNumber;				// Index nummer van de applet
@@ -134,7 +134,7 @@ public class ControllerApplet extends VBox implements MidiControllerEventHandler
 	public void HandleEvent(MidiControllerEvent e) {
 		if(e.getMsg1().equals("channel_change"))           // Kijk of het een change_channel event is
 		{
-			System.out.println("Midi channel change to "+e.getInt1());
+			System.out.println("HandleEvent Midi channel change to "+e.getInt1());
 			channel=e.getInt1();                           // Zo ja, wijzig het channel
 			rebuild();                                     // En herbouw dit object
 		}
