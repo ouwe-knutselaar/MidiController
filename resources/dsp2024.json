@@ -18,6 +18,422 @@
      	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
      	]
      },
+     {"name":"Gold Plate",
+     "type":"reverb",
+     "hexAccess":"6601",
+     "controlers":
+     	[
+     	 {"name":"pre delay",   "hex":"67xx"},
+     	 {"name":"decay",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp",	"hex":"69xx"},
+     	 {"name":"Bass Mul",	"hex":"6Axx"},
+     	 {"name":"Svh Damp",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Small Hall",
+     "type":"reverb",
+     "hexAccess":"6602",
+     "controlers":
+     	[
+     	 {"name":"pre delay",   "hex":"67xx"},
+     	 {"name":"decay",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp",	"hex":"69xx"},
+     	 {"name":"Bass Mul",	"hex":"6Axx"},
+     	 {"name":"Svh Damp",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Room",
+     "type":"reverb",
+     "hexAccess":"6603",
+     "controlers":
+     	[
+     	 {"name":"pre delay",   "hex":"67xx"},
+     	 {"name":"decay",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp",	"hex":"69xx"},
+     	 {"name":"Bass Mul",	"hex":"6Axx"},
+     	 {"name":"Svh Damp",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Concert",
+     "type":"reverb",
+     "hexAccess":"6604",
+     "controlers":
+     	[
+     	 {"name":"pre delay",   "hex":"67xx"},
+     	 {"name":"decay",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp",	"hex":"69xx"},
+     	 {"name":"Bass Mul",	"hex":"6Axx"},
+     	 {"name":"Svh Damp",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Studio",
+     "type":"reverb",
+     "hexAccess":"6605",
+     "controlers":
+     	[
+     	 {"name":"pre delay",   "hex":"67xx"},
+     	 {"name":"decay",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp",	"hex":"69xx"},
+     	 {"name":"Bass Mul",	"hex":"6Axx"},
+     	 {"name":"Svh Damp",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Stage",
+     "type":"reverb",
+     "hexAccess":"6606",
+     "controlers":
+     	[
+     	 {"name":"pre delay",   "hex":"67xx"},
+     	 {"name":"decay",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp",	"hex":"69xx"},
+     	 {"name":"Bass Mul",	"hex":"6Axx"},
+     	 {"name":"Svh Damp",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Spring reverd",
+     "type":"reverb",
+     "hexAccess":"6607",
+     "controlers":
+     	[
+     	 {"name":"pre delay",   "hex":"67xx"},
+     	 {"name":"decay",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp",	"hex":"69xx"},
+     	 {"name":"Bass Mul",	"hex":"6Axx"},
+     	 {"name":"Svh Damp",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Ambience",
+     "type":"reverb",
+     "hexAccess":"6608",
+     "controlers":
+     	[
+     	 {"name":"pre delay",   "hex":"67xx"},
+     	 {"name":"decay",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp",	"hex":"69xx"},
+     	 {"name":"Bass Mul",	"hex":"6Axx"},
+     	 {"name":"Svh Damp",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Early Reflections",
+     "type":"reverb",
+     "hexAccess":"6609",
+     "controlers":
+     	[
+     	 {"name":"pre delay",   "hex":"67xx"},
+     	 {"name":"decay",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp",	"hex":"69xx"},
+     	 {"name":"Bass Mul",	"hex":"6Axx"},
+     	 {"name":"Svh Damp",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Gated Reverb",
+     "type":"reverb",
+     "hexAccess":"660A",
+     "controlers":
+     	[
+     	 {"name":"pre delay",   "hex":"67xx"},
+     	 {"name":"decay",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp",	"hex":"69xx"},
+     	 {"name":"Bass Mul",	"hex":"6Axx"},
+     	 {"name":"Svh Damp",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Reverse Reverb",
+     "type":"reverb",
+     "hexAccess":"660B",
+     "controlers":
+     	[
+     	 {"name":"pre delay",   "hex":"67xx"},
+     	 {"name":"decay",       "hex":"68xx"},
+     	 {"name":"Hi dec. amp",	"hex":"69xx"},
+     	 {"name":"Bass Mul",	"hex":"6Axx"},
+     	 {"name":"Svh Damp",     "hex":"6Bxx"},
+     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Stereo delay",
+     "type":"delay",
+     "hexAccess":"660C",
+     "controlers":
+     	[
+     	 {"name":"1-100%",   "hex":"67xx"},
+     	 {"name":"1-100%",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Tape Echo",
+     "type":"delay",
+     "hexAccess":"660D",
+     "controlers":
+     	[
+     	 {"name":"1-100%",   "hex":"67xx"},
+     	 {"name":"1-100%",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Ping Pong",
+     "type":"delay",
+     "hexAccess":"660E",
+     "controlers":
+     	[
+     	 {"name":"1-100%",   "hex":"67xx"},
+     	 {"name":"1-100%",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Stereo Chorus",
+     "type":"modulation",
+     "hexAccess":"660F",
+     "controlers":
+     	[
+     	 {"name":"speed",   "hex":"67xx"},
+     	 {"name":"depth",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Analog Chorus",
+     "type":"modulation",
+     "hexAccess":"6610",
+     "controlers":
+     	[
+     	 {"name":"speed",   "hex":"67xx"},
+     	 {"name":"depth",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Vintage Chorus",
+     "type":"modulation",
+     "hexAccess":"6611",
+     "controlers":
+     	[
+     	 {"name":"speed",   "hex":"67xx"},
+     	 {"name":"depth",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Ultra Chorus",
+     "type":"modulation",
+     "hexAccess":"6612",
+     "controlers":
+     	[
+     	 {"name":"speed",   "hex":"67xx"},
+     	 {"name":"depth",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Stereo Flanger",
+     "type":"modulation",
+     "hexAccess":"6613",
+     "controlers":
+     	[
+     	 {"name":"speed",   "hex":"67xx"},
+     	 {"name":"depth",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Vintage Flanger",
+     "type":"modulation",
+     "hexAccess":"6614",
+     "controlers":
+     	[
+     	 {"name":"speed",   "hex":"67xx"},
+     	 {"name":"depth",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Jet Stream Flanger",
+     "type":"modulation",
+     "hexAccess":"6615",
+     "controlers":
+     	[
+     	 {"name":"speed",   "hex":"67xx"},
+     	 {"name":"depth",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Stereo Phaser",
+     "type":"modulation",
+     "hexAccess":"6616",
+     "controlers":
+     	[
+     	 {"name":"speed",   "hex":"67xx"},
+     	 {"name":"depth",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Vintage Phaser",
+     "type":"modulation",
+     "hexAccess":"6617",
+     "controlers":
+     	[
+     	 {"name":"speed",   "hex":"67xx"},
+     	 {"name":"depth",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Dual Phaser",
+     "type":"modulation",
+     "hexAccess":"6618",
+     "controlers":
+     	[
+     	 {"name":"speed",   "hex":"67xx"},
+     	 {"name":"depth",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Rotary",
+     "type":"modulation",
+     "hexAccess":"6619",
+     "controlers":
+     	[
+     	 {"name":"speed",   "hex":"67xx"},
+     	 {"name":"depth",       "hex":"68xx"},
+     	 {"name":"1-100%",	"hex":"69xx"},
+     	 {"name":"1-100%",	"hex":"6Axx"},
+     	 {"name":"1-100%",     "hex":"6Bxx"},
+     	 {"name":"1-100%",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
+     {"name":"Pitch shifter",
+     "type":"modulation",
+     "hexAccess":"661A",
+     "controlers":
+     	[
+     	 {"name":"semitones 1",   "hex":"67xx"},
+     	 {"name":"cents 1",       "hex":"68xx"},
+     	 {"name":"semitones 2",	"hex":"69xx"},
+     	 {"name":"cents 2",	"hex":"6Axx"},
+     	 {"name":"semitones 3",     "hex":"6Bxx"},
+     	 {"name":"cents 3",        "hex":"6Cxx"},
+     	 {"name":"EQ High",     "hex":"6Exx"},
+     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
      {"name":"Guitar AMP",
      "type":"distortion",
      "hexAccess":"6632",
@@ -66,20 +482,36 @@
      	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
      	]
      },
+     {"name":"Vocal Distortion",
+     "type":"distortion",
+     "hexAccess":"6630",
+     "controlers":
+     	[
+     	 {"name":"Dist in 1-100",   "hex":"67xx"},
+     	 {"name":"Delay lvl 0-100%",       "hex":"68xx"},
+     	 {"name":"Delay 0.05-1s",	"hex":"69xx"},
+     	 {"name":"Flanger lvl 0-100%",	"hex":"6Axx"},
+     	 {"name":"Type 1,2,3",     "hex":"6Bxx"},
+     	 {"name":"Falnger speed 0.05-2hz",        "hex":"6Cxx"},
+     	 {"name":"EQ High -16 - 16 db",     "hex":"6Exx"},     	 
+     	 {"name":"EQ Low -16 - 16 db",      "hex":"6Dxx"},
+     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	]
+     },
      {"name":"UltraBass",
      "type":"psych acoustics",
      "hexAccess":"6628",
      "controlers":
      	[
-     	 {"name":"SubBass Freq 1-100",       "hex":"67xx"},
-     	 {"name":"SubBass Level",    "hex":"68xx"},
-     	 {"name":"Split Freq",      "hex":"69xx"},
-     	 {"name":"Harmonic lvl",   "hex":"6Axx"},
-     	 {"name":"Harmonic dest",      "hex":"6Bxx"},
-     	 {"name":"Bass Level",     "hex":"6Cxx"},
-     	 {"name":"EQ Low",     "hex":"6Dxx"},
-     	 {"name":"EQ High",      "hex":"6Exx"},
-     	 {"name":"On/Off",      "hex":"6Fxx"}
+     	 {"name":"SubBass Freq 80-150 hz",       "hex":"67xx"},
+     	 {"name":"SubBass Level 1-100%",    "hex":"68xx"},
+     	 {"name":"Split Freq 30-250 hz",      "hex":"69xx"},
+     	 {"name":"Harmonic lvl 1-100%",   "hex":"6Axx"},
+     	 {"name":"Harmonic dest 1-7",      "hex":"6Bxx"},
+     	 {"name":"Bass Level 1-100%",     "hex":"6Cxx"},
+     	 {"name":"EQ Low -16 - 16 db",     "hex":"6Dxx"},
+     	 {"name":"EQ High -16 - 16 db",      "hex":"6Exx"},
+     	 {"name":"Mix 0-100%",      "hex":"6Fxx"}
      	]
      }
      ,
