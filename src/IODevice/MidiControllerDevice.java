@@ -100,12 +100,12 @@ public class MidiControllerDevice implements MidiControllerEventHandler
 	 */
 	private boolean SendMidiSevent(String hexString, int sliderParameter, int channel)
 	{
-		System.out.println("channel org is "+channel);
+		//System.out.println("channel org is "+channel);
 		//channel--;																// Even een correctie omdat het null het eerste kanaal is
 		ShortMessage message=new ShortMessage();								// Maak een short message om te verzenden
 		byte[] midiBytaArray=HexStringToByteArray(hexString,sliderParameter);	// Maak de array om te verturen uit de hex string
 		try {
-			 System.out.println("MidiControllerDevice message type:"+ShortMessage.CONTROL_CHANGE+" ch:"+channel+" msg1:"+midiBytaArray[0]+" msg2:"+midiBytaArray[1]);
+			 //System.out.println("MidiControllerDevice message type:"+ShortMessage.CONTROL_CHANGE+" ch:"+channel+" msg1:"+midiBytaArray[0]+" msg2:"+midiBytaArray[1]);
 			 message.setMessage(ShortMessage.CONTROL_CHANGE,channel,midiBytaArray[0],midiBytaArray[1]);	// vul de shortmessage
 			
 		} catch (InvalidMidiDataException e) {
@@ -124,7 +124,7 @@ public class MidiControllerDevice implements MidiControllerEventHandler
 		int messageSize=hexString.length()/2;		// Bepaal de lengte van de arrray
 		byte[] messageList=new byte[messageSize];	// Maak de byte array 
 		
-		System.out.println("hexstring -"+hexString+"- and size="+messageSize);
+		//System.out.println("hexstring -"+hexString+"- and size="+messageSize);
 		int byteTel=0;
 		for(int tel=0;tel<hexString.length();tel+=2)
 		{
@@ -167,7 +167,7 @@ public class MidiControllerDevice implements MidiControllerEventHandler
 		
 		if(e.getMsg1().equals("change_channel"))
 		{
-			System.out.println("MidiControllerDevice message :"+e.getMsg1()+" "+e.getMsg2()+" "+e.getInt1()+" "+e.getInt2());
+			//System.out.println("MidiControllerDevice message :"+e.getMsg1()+" "+e.getMsg2()+" "+e.getInt1()+" "+e.getInt2());
 			//SendMidiSevent(e.getMsg2(),e.getInt1(),e.getInt2());
 			Globals.channel=e.getInt1();
 		}

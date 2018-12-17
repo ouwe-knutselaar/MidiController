@@ -51,7 +51,7 @@ public class AppletFromFileLoader
 	  ArrayNode effectArray=(ArrayNode)rootObject.get("effects");	// Open de effecten array
 	  for(JsonNode elm : effectArray)
 	  {
-		  System.out.println(elm.get("name").textValue());
+		  //System.out.println(elm.get("name").textValue());
 		  ControllerApplet singleApplet=new ControllerApplet(tel);			// Maak een controller applet met een vast nummer
 		  singleApplet.setHeadText(elm.get("name").textValue());				// Zet de header
 		  singleApplet.setHexSelectString(elm.get("hexAccess").textValue());	// Importeer de hex selectie string
@@ -80,7 +80,7 @@ public class AppletFromFileLoader
 	ObjectMapper mapper = new ObjectMapper();
 	try {
 		 rootObject = mapper.readTree(jsonString);
-		 System.out.println("Device is "+rootObject.get("deviceName").asText());
+		 //System.out.println("Device is "+rootObject.get("deviceName").asText());
 	} catch (IOException e) {
 		System.out.println("Error in the JSON");
 		e.printStackTrace();
@@ -108,7 +108,7 @@ private void readFileToString(String fileName) throws IOException
 		 buffer=new byte[1024];								// reset de buffer
 	 }
 	 jsonString=jsonStringBD.toString();					// Stop alles in de jsonString
-	 System.out.println("Json string \n"+jsonString);
+	 //System.out.println("Json string \n"+jsonString);
 	 bis.close();											// Sluit de handlers
 	 fis.close();
 	 

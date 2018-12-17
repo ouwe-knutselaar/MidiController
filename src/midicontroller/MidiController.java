@@ -87,7 +87,7 @@ public class MidiController extends Application implements MidiControllerEventHa
 	public void HandleEvent(MidiControllerEvent e) {
 		
 		if(e.getMsg1().equals("change_controller"))				// Wissel van controller
-		{	System.out.println("MidiController message :"+e.getMsg1()+" "+e.getMsg2()+" "+e.getInt1()+" "+e.getInt2());
+		{	//System.out.println("MidiController message :"+e.getMsg1()+" "+e.getMsg2()+" "+e.getInt1()+" "+e.getInt2());
 			ControllerApplet cApp=controllerAppletContainer.getList().get(e.getInt1());
 			controllerAppletBox.getChildren().clear();
 			controllerAppletBox.getChildren().add(cApp);

@@ -134,7 +134,7 @@ public class ControllerApplet extends VBox implements MidiControllerEventHandler
 	public void HandleEvent(MidiControllerEvent e) {
 		if(e.getMsg1().equals("channel_change"))           // Kijk of het een change_channel event is
 		{
-			System.out.println("HandleEvent Midi channel change to "+e.getInt1());
+			//System.out.println("HandleEvent Midi channel change to "+e.getInt1());
 			channel=e.getInt1();                           // Zo ja, wijzig het channel
 			rebuild();                                     // En herbouw dit object
 		}
