@@ -13,8 +13,8 @@
      	 {"name":"Bass Mul -10 - 10",	"hex":"6Axx"},
      	 {"name":"Svh Damp 0-100%",     "hex":"6Bxx"},
      	 {"name":"Rev Mod 1-20",        "hex":"6Cxx"},
-     	 {"name":"EQ High",     "hex":"6Exx"},
-     	 {"name":"EQ Low",      "hex":"6Dxx"},
+     	 {"name":"EQ High",             "hex":"6Exx"},
+     	 {"name":"EQ Low",              "hex":"6Dxx"},
      	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
      	]
      },
@@ -27,11 +27,11 @@
      	 {"name":"decay",       "hex":"68xx"},
      	 {"name":"Hi dec. amp",	"hex":"69xx"},
      	 {"name":"Bass Mul",	"hex":"6Axx"},
-     	 {"name":"Svh Damp",     "hex":"6Bxx"},
-     	 {"name":"Rev Mod",        "hex":"6Cxx"},
+     	 {"name":"Svh Damp",    "hex":"6Bxx"},
+     	 {"name":"Rev Mod",     "hex":"6Cxx"},
      	 {"name":"EQ High",     "hex":"6Exx"},
      	 {"name":"EQ Low",      "hex":"6Dxx"},
-     	 {"name":"Mix 0-100%",         "hex":"6Fxx"}
+     	 {"name":"Mix 0-100%",  "hex":"6Fxx"}
      	]
      },
      {"name":"Small Hall",

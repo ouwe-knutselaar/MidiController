@@ -74,7 +74,7 @@ public class ControllerApplet extends VBox implements MidiControllerEventHandler
 	}
 
 	public void setFootText(String footText) {
-		this.footText.setText(footText);
+		this.footText.setText("Effect type is "+footText);
 	}
 
 	public void add(MidiSlider midiSlider)

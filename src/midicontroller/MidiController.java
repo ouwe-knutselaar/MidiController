@@ -50,7 +50,8 @@ public class MidiController extends Application implements MidiControllerEventHa
 		MidiControllerEventDispatcher.addListener(midiControllerDevice);	// Voeg de midi device toe
 		
 		// Laadt de JSON met de controllers
-		controllerAppletContainer.loadApplets("C:\\Users\\erwin\\workspace\\MidiController\\resources\\dsp2024.json");
+		//controllerAppletContainer.loadApplets("C:\\Users\\erwin\\workspace\\MidiController\\resources\\dsp2024.json");
+		controllerAppletContainer.loadApplets("D:\\onze_projecten\\MidiController\\MidiController\\resources\\dsp2024.json");
 		
 		// Zorg ervoor dat de eerste applet wordt getoond
 		ControllerApplet cApp=controllerAppletContainer.getList().get(0);
@@ -85,7 +86,7 @@ public class MidiController extends Application implements MidiControllerEventHa
 	@Override
 	public void HandleEvent(MidiControllerEvent e) {
 		
-		if(e.getMsg1().equals("change_controller"))
+		if(e.getMsg1().equals("change_controller"))				// Wissel van controller
 		{	System.out.println("MidiController message :"+e.getMsg1()+" "+e.getMsg2()+" "+e.getInt1()+" "+e.getInt2());
 			ControllerApplet cApp=controllerAppletContainer.getList().get(e.getInt1());
 			controllerAppletBox.getChildren().clear();
